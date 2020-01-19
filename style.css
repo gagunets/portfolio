@@ -200,6 +200,7 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
 .mytext {
     display: inline-block;
     position: relative;
+    margin: 20px 0;
 }
 
 .content {
