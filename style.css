@@ -898,7 +898,7 @@ html.night strong {
     }
 
     body section, html section {
-            padding: 80px 55px;
+            padding: 30px 55px;
 
         }
     body .section_content, html .section_content {
@@ -931,7 +931,6 @@ html.night strong {
     body #top-button, html #top-button {
         bottom: 15px;
         right: 3px;
-        width: 100px;
     }
 
     .status_message{
