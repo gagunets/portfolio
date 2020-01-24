@@ -898,7 +898,7 @@ html.night strong {
     }
 
     body section, html section {
-            padding: 30px 55px;
+            padding: 80px 55px;
 
         }
     body .section_content, html .section_content {
@@ -973,7 +973,13 @@ html.night strong {
     }
 
     .skills{
-        margin-top: 100px;
+        margin-top: 20px;
+    }
+    .status{
+        margin-top: 50px;
+    }
+    .featured-projects .project_pic {
+        margin-left: 0;
     }
 }
 
@@ -1031,7 +1037,7 @@ html.night strong {
     .featured-projects .project {
         width: 100%;
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .featured-projects .project_caption {
         width: 100%;
@@ -1058,7 +1064,7 @@ html.night strong {
 @media screen and (max-width: 1024px){
    
     body .section, html .section {
-        padding: 50px;
+        padding: 30px 50px 20px 50px;
     }
     body .section_title, html .section_title  {
         margin-right: 50px;
@@ -1074,6 +1080,9 @@ html.night strong {
         bottom: 20px;
         right: 7px;
         width: 55px;
+    }
+    .experience .jobs {
+        margin-bottom: 30px;
     }
 }
 
