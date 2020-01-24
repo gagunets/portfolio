@@ -533,6 +533,13 @@ section .skills{
     margin-left: 32px;
 }
 
+#desktop {
+    display: block;
+}
+#mobile {
+    display: none;
+}
+
 .featured-projects .project_caption {
     width: 125px;
     -ms-flex-negative: 0;
@@ -972,12 +979,14 @@ html.night strong {
          margin-top: 50%;
     }
 
-    .skills{
+    .skills {
         margin-top: 20px;
     }
-    .status{
+
+    .status {
         margin-top: 50px;
     }
+
     .featured-projects .project_pic {
         margin-left: 0;
     }
@@ -1047,6 +1056,13 @@ html.night strong {
     .switch-wrapper a, body.night .switch-wrapper a {
         margin: 5px;
         font-size: 8px;
+    }
+
+    #desktop {
+        display: none;
+    }
+    #mobile {
+        display: block;
     }
 }
 
