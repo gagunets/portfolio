@@ -909,7 +909,7 @@ html.night strong {
 
         }
     body .section_content, html .section_content {
-        padding-left: 30px;
+        padding-left: 20px;
     }
 
     .content{
@@ -940,7 +940,7 @@ html.night strong {
         right: 3px;
     }
 
-    .status_message{
+    .status_message {
         font-size: 1rem;
     }
 }
@@ -1008,6 +1008,7 @@ html.night strong {
 
     .background .section_content .status_message {
         margin: auto;
+        margin-left: 10px;
     }
     .footer {
         display: block;
@@ -1041,7 +1042,7 @@ html.night strong {
     }
     body .section_content, html .section_content {
         padding-top: 30px;
-        padding-left: 50px;
+        padding-left: 25px;
     }
     .featured-projects .project {
         width: 100%;
@@ -1080,7 +1081,7 @@ html.night strong {
 @media screen and (max-width: 1024px){
    
     body .section, html .section {
-        padding: 30px 50px 20px 50px;
+        padding: 40px 50px 30px 50px;
     }
     body .section_title, html .section_title  {
         margin-right: 50px;
@@ -1099,6 +1100,9 @@ html.night strong {
     }
     .experience .jobs {
         margin-bottom: 30px;
+    }
+    .experience {
+        margin-top: -30px;
     }
 }
 
