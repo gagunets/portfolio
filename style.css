@@ -540,8 +540,7 @@ section .skills{
 }
 
 .featured-projects .project_pic img {
-    width: 70%;
-    max-width: 100%;
+    width: 100%;
     vertical-align: bottom;
     padding: 5px;
 }
@@ -932,6 +931,7 @@ html.night strong {
     body #top-button, html #top-button {
         bottom: 15px;
         right: 3px;
+        width: 100px;
     }
 
     .status_message{
@@ -1074,7 +1074,7 @@ html.night strong {
     body #top-button, html #top-button {
         bottom: 20px;
         right: 7px;
-        width: 35px;
+        width: 55px;
     }
 }
 
