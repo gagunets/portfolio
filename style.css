@@ -3,7 +3,6 @@ body, html {
                 padding: 0;
                 background-color: #f7f7f7;
                 color: #444452;
-                /*font-family: Apercu,Source Sans Pro,Helvetica,Arial,sans-serif;*/
                 line-height: 1.5;
                 scroll-behavior: smooth;
                 font-family: 'Share Tech Mono', monospace;
@@ -70,17 +69,17 @@ body .emoji, html .emoji {
     background-position: center;
 }
 
-section{
+section {
     /*opacity: 1;*/
     /*word-spacing: 2px;*/
     /*letter-spacing: 1px;*/   
 }
 
-section.fadeIn{
+section.fadeIn {
     animation: fadeIn 2s forwards;
 }
 
-.switch-wrapper{
+.switch-wrapper {
                     display: -webkit-box;
                     display: -ms-flexbox;
                     display: flex;
