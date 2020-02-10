@@ -552,7 +552,7 @@ section .skills{
     padding: 5px;
 }
 
-.featured-projects .project_pic img:hover{
+.featured-projects .project_pic img:hover {
    background-color: blue;
 }
 
@@ -647,10 +647,10 @@ body ul, html ul {
 
 .footer_copyright {
     font-weight: 700;
-    width: 200px;
+    width: 250px;
 }
 
-.footer_copyright .emoji{
+.footer_copyright .emoji {
     width: 20px;
     height: 20px;
 }
@@ -747,7 +747,7 @@ html.night strong {
 
 
 /*All Keyframes*/
-@keyframes wave{
+@keyframes wave {
     0% {transform: rotate(0deg);}
     /*10%{transform: rotate(90deg);}*/
     20% {transform: rotate(90deg);}  
@@ -1116,5 +1116,5 @@ html.night strong {
     body .intro {
             padding: 100px 35px;
             line-height: 1.5;
-        }
+    }
 }
