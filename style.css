@@ -749,29 +749,19 @@ html.night strong {
 /*All Keyframes*/
 @keyframes wave {
     0% {transform: rotate(0deg);}
-    /*10%{transform: rotate(90deg);}*/
-    20% {transform: rotate(90deg);}  
-    /*30%{transform: rotate(90deg);}*/
+    20% {transform: rotate(90deg);}
     40% {transform: rotate(15deg);}
-    /*50% {transform: rotate(90deg);}*/
     60% {transform: rotate(90deg);}
-    /*70%{transform: rotate(90deg);}*/
     80%{transform: rotate(15deg);}
-    /*90% {transform: rotate(90deg);}*/
     100% {transform: rotate(0deg);}
 }
 
-@-webkit-keyframes wave{
+@-webkit-keyframes wave {
     0% {transform: rotate(0deg);}
-    /*10%{transform: rotate(90deg);}*/
-    20% {transform: rotate(90deg);}  
-    /*30%{transform: rotate(90deg);}*/
+    20% {transform: rotate(90deg);}
     40% {transform: rotate(15deg);}
-    /*50% {transform: rotate(90deg);}*/
     60% {transform: rotate(90deg);}
-    /*70%{transform: rotate(90deg);}*/
     80%{transform: rotate(15deg);}
-    /*90% {transform: rotate(90deg);}*/
     100% {transform: rotate(0deg);}
 }
 
@@ -804,7 +794,6 @@ html.night strong {
     }
 
 @-webkit-keyframes fadeIn {
-  /* keyframes must have at least two intervals from/to or 0%/100% */
   0% {
     opacity: 0;
   }
@@ -815,7 +804,6 @@ html.night strong {
 }
 
 @keyframes fadeIn {
-  /* keyframes must have at least two intervals from/to or 0%/100% */
   0% {
     opacity: 0;
   }
