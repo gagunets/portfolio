@@ -184,7 +184,7 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
 }
 
 .myname {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
@@ -422,13 +422,14 @@ body .section_title, html .section_title {
     color: #007bff;
     text-transform: uppercase;
     text-align: right;
+    font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
 body .section_content, html .section_content {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 100%;
     max-width: 650px;
 }
@@ -499,7 +500,7 @@ a.experience .job .job_company {
 }
 
 .experience .job_time {
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-family: Inconsolata, monospace;
 }
 
