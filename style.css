@@ -259,7 +259,7 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
 
 .intro {
     padding: 80px 100px;
-    height: 75vh;
+    /*height: 70vh;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -998,7 +998,7 @@ html.night strong {
     }
 
     body .intro {
-        padding: 130px 45px;
+        padding: 80px 45px;
     }
 }
 
@@ -1014,7 +1014,7 @@ html.night strong {
     }
 
     body .intro {
-        padding: 100px 35px;
+        padding: 80px 35px 100px 35px;
         line-height: 1.5;
     }
 
@@ -1067,7 +1067,7 @@ html.night strong {
 
 @media screen and (max-width: 550px) {
     .intro {
-        padding: 120px 50px;
+        padding: 80px 50px 120px 50px;
     }
 
     .intro_hello, .intro_tagline {
@@ -1251,7 +1251,7 @@ html.night strong {
     }
 
     body .intro {
-        padding: 100px 35px;
+        padding: 40px 35px 80px 35px;
         line-height: 1.5;
     }
 }
