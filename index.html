@@ -14,16 +14,36 @@
 
 
 <div id="site">
-    <div class="switch-wrapper">
-        <div class="sun"></div>
-        <div class="toggle-wrapper">
-            <input type="checkbox" id="switch"/>
-            <label for="switch" id="switch1">Toggle</label>
-        </div>
-        <div class="moon"></div>
-    </div>
 
     <header class="intro">
+
+        <div id="nav-header-shadow"></div>
+        <nav class="nav-menu">
+            <div class="nav-logo">
+                <img src="images/profile-photo.png" alt="D.Sokolov" class="logo-icon-none">
+            </div>
+            <div id="links" class="nav-links">
+                <a href="index.html" title="home">
+                    <span class="text active-nav-link">
+                        portfolio
+                    </span>
+                </a>
+                <a href="blog.html" title="blog">
+                    <span class="text">
+                        blog
+                    </span>
+                </a>
+            </div>
+            <div class="switch-wrapper">
+                <div class="sun"></div>
+                <div class="toggle-wrapper">
+                    <input type="checkbox" id="switch"/>
+                    <label for="switch" id="switch1">Toggle</label>
+                </div>
+                <div class="moon"></div>
+            </div>
+        </nav>
+
         <h1 class="intro_hello">
             Hello!
             <span id="wave" class="emoji wave-hand animated"> </span>
@@ -49,7 +69,7 @@
                     aesthetics, design thinking, and a human-centered approach.</span>
                 <span id="emojiwavehand" class="emoji technologist"></span>
             </h2>
-            <img src="images/me-square-smaller.png" alt="D.Sokolov" class="ds-icon">
+            <img src="images/profile-photo.png" alt="D.Sokolov" class="ds-icon">
         </div>
         <h3 class="intro_contact">
             <span>Get in touch</span>
@@ -573,7 +593,9 @@
         <img src="images/finger-up-emoji-clipart-21.png" alt="">
     </button>
 </div>
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
 
 </body>
