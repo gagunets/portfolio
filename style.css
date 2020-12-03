@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #FCFCFC;
     color: #444452;
     line-height: 1.5;
     scroll-behavior: smooth;
@@ -81,7 +81,7 @@ section.fadeIn {
 }
 
 .nav-menu {
-    background-color: #f7f7f7;
+    background-color: #FCFCFC;
     position: fixed;
     top: 0;
     right: 0;
@@ -983,7 +983,7 @@ html.night strong {
 }
 
 .blog-post {
-    background-color: #f7f7f7;
+    background-color: #FCFCFC;
     height: 150px;
     margin-bottom: 30px;
     border: 1px solid rgba(68,68,82, .1);
