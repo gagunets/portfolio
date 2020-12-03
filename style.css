@@ -797,6 +797,55 @@ body .arrow-link:hover, html .arrow-link:hover {
     transform: translateX(7px);
 }
 
+.secondary-text {
+    margin-top: 20px;
+    font-size: .8rem;
+    font-weight: 700;
+    opacity: .7;
+}
+
+.section_title .secondary-text {
+    margin-top: 40px;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: normal;
+    opacity: .7;
+    text-transform: none;
+    color: #444452;
+}
+
+.night .section_title .secondary-text {
+    color: #afafbf;
+}
+
+
+.mail-address abbr[data-title] {
+    position: relative;
+}
+
+.mail-address abbr[data-title]:hover::after,
+.mail-address abbr[data-title]:focus::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    width: auto;
+    white-space: nowrap;
+    background: #1b1b1b;
+    color: #f7f7f7;
+    opacity: 0.7;
+    /*border-radius: 2px;*/
+    border: 1px solid #444452;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4);
+    font-family: "Trebuchet MS", serif;
+    font-size: .8rem;
+    font-weight: 300;
+    padding: 3px 5px;
+}
+
+
+
 body ul, html ul {
     list-style: none;
     padding: 0;
@@ -921,7 +970,7 @@ html.night strong {
 /* Blog Page */
 
 .intro-blog {
-    padding: 300px 100px 80px 100px;
+    padding: 200px 100px 80px 100px;
     display: flex;
     justify-content: center;
 }
@@ -934,10 +983,81 @@ html.night strong {
 }
 
 .blog-post {
-    background-color: dimgrey;
-    height: 100px;
+    background-color: #f7f7f7;
+    height: 150px;
     margin-bottom: 30px;
+    border: 1px solid rgba(68,68,82, .1);
+    box-shadow: 0 1px 2px rgba(68,68,82, .1);
+    display: flex;
 }
+
+.night .blog-post {
+    background-color: #1B1B1B;
+    border: 1px solid rgba(231,231,231, .1);
+    box-shadow: 0 2px 8px rgba(0,0, 0, .5);
+}
+
+.night .blog-post:hover {
+    background-color: #222222;
+    box-shadow: 0 4px 12px rgba(0,0, 0, .5);
+}
+
+.post-image {
+    flex: 2;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.post-info {
+    padding: 20px;
+    flex: 5;
+}
+
+.post-title {
+    font-size: 2rem;
+}
+
+.night .post-title {
+    color: #e7e7e7;
+}
+
+.blog-post:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 9px rgba(68,68,82, .1);
+}
+
+.post-description {
+    font-size: .8rem;
+    font-weight: 700;
+    opacity: .7;
+    color: #444452;
+    margin-bottom: 10px;
+}
+
+.night .post-description {
+    color: #e7e7e7;
+}
+
+.post-tags .tag {
+    display: inline-block;
+    font-family: Inconsolata, monospace;
+    font-size: .75rem;
+    font-weight: 400;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #444452;
+    border: 1px solid #444452;
+    background: 0 0;
+    opacity: .5;
+}
+
+.night .post-tags .tag {
+    color: #e7e7e7;
+    border: 1px solid #e7e7e7;
+    opacity: .3;
+}
+
+
 
 
 
