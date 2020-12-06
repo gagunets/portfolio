@@ -197,7 +197,7 @@ section.fadeIn {
     display: inline-block;
     /*background-image: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(210,218,255,0.5284488795518207) 44%, rgba(211,245,255,0.6320903361344538) 100%);*/
     animation: .8s shake infinite alternate;
-    background-image: linear-gradient(140deg, rgba(255,191,215, .1) 0%, rgba(210,218,255, .3) 44%, rgba(191,254,255, .3) 100%);
+    background-image: linear-gradient(140deg, rgba(255,191,215, .1) 0%, rgba(210,218,255, .4) 44%, rgba(191,254,255, .3) 100%);
 }
 
 .name {
