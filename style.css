@@ -654,16 +654,16 @@ a.experience .job .job_company {
 .featured-projects .project_used_item, .post-tags .tag {
     display: inline-block;
     font-family: Rajdhani, sans-serif;
-    font-size: .75rem;
+    font-size: .9rem;
     font-weight: 600;
     padding: 2px 7px;
     margin-bottom: 4px;
-    border-radius: 2px;
+    /*border-radius: 2px;*/
     color: #444452;
     text-transform: uppercase;
-    border: 1px solid #65656B;
-    background: 0 0;
+    /*border: 1px solid #65656B;*/
     opacity: .5 !important;
+    background-image: linear-gradient(140deg, rgba(255,191,215, .1) 0%, rgba(210,218,255, .4) 44%, rgba(191,254,255, .3) 100%);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -682,6 +682,7 @@ details summary::-webkit-details-marker {
 }
 
 details summary {
+    /*background-image: linear-gradient(140deg, rgba(255,191,215, .1) 0%, rgba(210,218,255, .4) 44%, rgba(191,254,255, .3) 100%);*/
     /*font-family: 'Bitter', serif;*/
     background-image:none;
     -webkit-appearance:none;
