@@ -1200,10 +1200,6 @@ html.night strong {
         font-size: 1.7rem;
     }
 
-    .post-title {
-        font-size: 1.7rem;
-    }
-
     .nav-logo {
         display: none !important;
     }
@@ -1281,6 +1277,15 @@ html.night strong {
     /*.intro {*/
     /*    padding: 80px 50px 120px 50px;*/
     /*}*/
+
+    .post-title {
+        font-size: 1.3rem;
+    }
+    .post-image {
+        flex: 1;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
     .intro_hello, .intro_tagline {
         margin-bottom: 0;
