@@ -195,8 +195,9 @@ section.fadeIn {
     line-height: 1.7;
     text-decoration: none;
     display: inline-block;
-    background-image: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(210,218,255,0.5284488795518207) 44%, rgba(211,245,255,0.6320903361344538) 100%);
+    /*background-image: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(210,218,255,0.5284488795518207) 44%, rgba(211,245,255,0.6320903361344538) 100%);*/
     animation: .8s shake infinite alternate;
+    background-image: linear-gradient(140deg, rgba(255,191,215, .1) 0%, rgba(210,218,255, .3) 44%, rgba(191,254,255, .3) 100%);
 }
 
 .name {
@@ -382,6 +383,13 @@ h1 {
 hr {
     border-bottom: 1px solid #E5E5E5;
     opacity: .2;
+}
+
+.footer-hr {
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(191,254,255, .7) 0%, rgba(210,218,255, .8) 44%, rgba(255,191,215, .5) 100%);
+    opacity: 1;
 }
 
 section {
@@ -1153,7 +1161,7 @@ html.night strong {
 
 
 
-All Media Queries
+/*All Media Queries*/
 
 @media screen and (max-width: 320px) {
 
