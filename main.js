@@ -19,10 +19,10 @@ $(window).scroll(function(){
 
 
 
-// Toggle between Day and Night mode
-$('#switch1').on('click', function(){
-  $('body').toggleClass('night')
-});
+// // Toggle between Day and Night mode
+// $('#switch1').on('click', function(){
+//   $('body').toggleClass('night')
+// });
 
 
 
@@ -47,16 +47,16 @@ $('#switch1').on('click', function(){
 
 
 // If you hover over the languages I used in project Box it will do fade in animation
-$('.project_used span').on({
-    mouseover: function() {
-        event.preventDefault();
-        $(this).animate({opacity: 0.25});
-    },
-    mouseout: function() {
-        event.preventDefault();
-        $(this).animate({opacity: 1});
-    }
-});
+// $('.project_used span').on({
+//     mouseover: function() {
+//         event.preventDefault();
+//         $(this).animate({opacity: 0.25});
+//     },
+//     mouseout: function() {
+//         event.preventDefault();
+//         $(this).animate({opacity: 1});
+//     }
+// });
 
 
 

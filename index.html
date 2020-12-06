@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Sokolov Studio</title>
     <link rel="icon" type="image/png" href="images/male-technologist.png" hreflang="en-us">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -24,71 +22,85 @@
         <nav class="nav-menu">
             <div class="nav-logo">
                 <img src="images/profile-photo.png" alt="D.Sokolov" class="logo-icon-none">
+                <img src="images/profile-photo.png" alt="D.Sokolov" class="logo-icon-mob">
             </div>
             <div id="links" class="nav-links">
-                <a href="index.html" title="home">
+                <a href="index.html" title="Work">
                     <span class="text active-nav-link">
-                        portfolio
+                        work
                     </span>
                 </a>
-                <a href="blog.html" title="blog">
+                <a href="blog.html" title="About">
+                    <span class="text">
+                        about
+                    </span>
+                </a>
+                <a href="blog.html" title="Blog">
                     <span class="text">
                         blog
                     </span>
                 </a>
+                <a href="#" title="Contact me" class="call-to-action-btn">
+                    <span class="text blue-btn">
+                        get in touch
+                    </span>
+                </a>
             </div>
-            <div class="switch-wrapper">
-                <div class="sun"></div>
-                <div class="toggle-wrapper">
-                    <input type="checkbox" id="switch"/>
-                    <label for="switch" id="switch1">Toggle</label>
-                </div>
-                <div class="moon"></div>
-            </div>
+<!--            <div class="call-to-action-btn">-->
+<!--                <a href="#" title="contact">-->
+<!--                    <span class="text active-nav-link">-->
+<!--                        Get in touch-->
+<!--                    </span>-->
+<!--                </a>-->
+<!--            </div>-->
         </nav>
 
-        <h1 class="intro_hello">
-            Hello!
-            <span id="wave" class="emoji wave-hand animated"> </span>
-        </h1>
-        <div class="intro_icon_box">
-            <h2 class="intro_tagline">
-                I'm
-                <div class="myname"> Danylo Sokolov,</div>
-                a UX designer based in Lviv.
-                <br>
-                <div class="mytext">
-                    <div class="content">
-                        <div class=" container">
-                            <ul class="list">
-                                <li class="item">UX Designer</li>
-                                <li class="item">Product Designer</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <span>Solving business challenges and creating user experiences through
-                    aesthetics, design thinking, and a human-centered approach.</span>
-                <span id="emojiwavehand" class="emoji technologist"></span>
-            </h2>
-            <img src="images/profile-photo.png" alt="D.Sokolov" class="ds-icon">
+        <div class="intro_hello">
+            <h1>
+                Hello!
+                <span id="wave" class="emoji wave-hand animated">👋</span>
+            </h1>
         </div>
-        <h3 class="intro_contact">
-            <span>Get in touch</span>
-            <span class="emoji pointer"></span>
-            <span id="emailme">
-				<a href="mailto:sokolov.ux@gmail.com" target="_blank" draggable="false" class="highlight-link mail-address">
-                    <abbr data-title="This will open your mail app.">
-                    sokolov.ux@gmail.com
-                    </abbr>
-                </a>
-			</span>
-        </h3>
+        <div class="intro_icon_box">
+            <div class="intro_tagline">
+                <div class="main-text-line">
+                    I'm
+                    <div class="myname"> Danylo Sokolov</div>, <br>
+                    a UX designer based in Lviv.
+                </div>
+                <span>
+                    Solving business challenges and creating user experiences through
+                        aesthetics, design thinking, and a human-centered approach.
+                </span>
+            </div>
+            <div class="header-profile-photo">
+                <img src="images/profile-photo.png" alt="D.Sokolov" class="ds-icon">
+            </div>
+        </div>
+        <div class="intro_contact">
+            <div class="label">
+                <span>Get in touch</span>
+            </div>
+            <div class="contact-links">
+                    <a href="mailto:sokolov.ux@gmail.com" target="_blank" title="email" class="highlight-link mail-address">
+                        sokolov.ux@gmail.com
+                    </a>
+                     <a href="https://www.behance.net/gagunets23ce?isa0=1" target="_blank" title="behance" class="highlight-link">
+                        behance
+                    </a>
+                    <a href="https://www.linkedin.com/in/danylo-sokolov/" target="_blank" title="linkedin" class="highlight-link">
+                        linkedin
+                    </a>
+            </div>
+        </div>
     </header>
 
+    <hr>
+
     <section class="section background">
-        <div class="section_title">My Background</div>
+        <div class="section_title">
+            <h1>My Background</h1>
+        </div>
         <div class="section_content">
             <p>
                 My IT-way counts <span class="blue_highlight">4 years</span> of experience in general. I design and develop usable,
@@ -106,7 +118,7 @@
                 This summer, I have graduated from <i>Lviv Polytechnic National University</i>
                 and got my Master's degree in <i>Cybersecurity.</i>
             </p>
-            <a href="images/sokolov-ux-cv.pdf" target="_blank" class="arrow-link status font_trebuchet">
+            <a href="images/sokolov-ux-cv.pdf" target="_blank" class="arrow-link status">
                 View My Resume
             </a>
             <div class="secondary-text">
@@ -115,12 +127,16 @@
         </div>
     </section>
 
+    <hr>
+
     <section class="section skills" data-aos="slide-up">
-        <div class="section_title">skills</div>
+        <div class="section_title">
+            <h1>Skills</h1>
+        </div>
         <div class="section_content">
             <div class="skillz">
                 <div class="skillz_category">
-                    <div class="skillz_category_label">
+                    <div class="label">
                         Design
                     </div>
                     <ul>
@@ -136,17 +152,18 @@
                 </div>
 
                 <div class="skillz_category">
-                    <div class="skillz_category_label">
+                    <div class="label">
                         Development
                     </div>
                     <ul>
                         <li class="skillz_category_item">JavaScript</li>
-                        <li class="skillz_category_item">HTML/CSS</li>
+                        <li class="skillz_category_item">HTML</li>
+                        <li class="skillz_category_item">CSS</li>
                     </ul>
                 </div>
 
                 <div class="skillz_category">
-                    <div class="skillz_category_label">
+                    <div class="label">
                         Tools
                     </div>
                     <ul>
@@ -159,8 +176,8 @@
                 </div>
 
                 <div class="skillz_category">
-                    <div class="skillz_category_label">
-                        Other
+                    <div class="label">
+                        <span>Other</span>
                     </div>
                     <ul>
                         <li class="skillz_category_item">English (advanced)</li>
@@ -175,14 +192,14 @@
                     <div class="status_light_led"></div>
                 </div>
                 <div>
-                    <abbr data-title="This will open your mail app.">
-                        Interested in working together? Reach out!
-                    </abbr>
+                    Interested in working together? Reach out!
                 </div>
 
             </a>
         </div>
     </section>
+
+    <hr>
 
 
 <!--    <section class="section experience">-->
@@ -240,11 +257,7 @@
 
     <section class="section featured-projects">
         <div class="section_title">
-            Projects
-            <div class="secondary-text">
-                Press on image to open project on Behance. <br> <br>
-                Press the title to read the description.
-            </div>
+            <h1>Projects</h1>
         </div>
         <div class="projects">
             <!--            MyRealProfit-->
@@ -293,6 +306,7 @@
                     </figure>
                 </div>
                 <br>
+
                 <details>
                     <summary>Qatar Airways Mobile Application</summary>
                     <div class="featured-projects-content">
@@ -494,116 +508,7 @@
         </div>
     </section>
 
-<!--    <section class="section other-projects">-->
-<!--        <div class="section_title">Other Projects</div>-->
-<!--        <div class="section_content">-->
-
-<!--            <details>-->
-<!--                <summary>Billiard Hub</summary>-->
-<!--                <div class="project">-->
-<!--                    <p>BilliardHub (billiardhub.net) - is an online platform dedicated-->
-<!--                        to holding billiard competitions. It is a unique product with-->
-<!--                        a simple, intuitive and responsive design where you can hold-->
-<!--                        your billiard tournaments. An admin panel helps you effectively-->
-<!--                        manage and track your tournaments. Also, creating your personal-->
-<!--                        profile gives you an ability to watch your progress and progress-->
-<!--                        of other players in tournament standings.</p>-->
-<!--                    <div class="project_used">-->
-<!--                        <span class="project_used_item">JAVA SCRIPT</span>-->
-<!--                        <span class="project_used_item">jQuery</span>-->
-<!--                        <span class="project_used_item">CSS</span>-->
-<!--                        <span class="project_used_item">HTML</span>-->
-<!--                        <span class="project_used_item">Git Hub</span>-->
-<!--                        <span class="project_used_item">Adobe Photoshop</span>-->
-<!--                        <span class="project_used_item">Responsive Design</span>-->
-<!--                    </div>-->
-<!--                    <div class="project_links">-->
-<!--                        <a href="http://billiardhub.net/login.php" target="_blank">-->
-<!--                            <img src="images/snooker.png" alt="image">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </details>-->
-
-<!--            <details>-->
-<!--                <summary>Sinatra Restaurant</summary>-->
-<!--                <div class="project">-->
-<!--                    <p>It is a site for a brand new restaurant in Lviv.-->
-<!--                        The Restaurant is full of jazz atmosphere because of-->
-<!--                        its Sinatra style. Therefore, I decided to create-->
-<!--                        a special design with contrast colors and specific-->
-<!--                        fonts to highlight its atmosphere.</p>-->
-<!--                    <div class="project_used">-->
-<!--                        <span class="project_used_item">Adobe Photoshop</span>-->
-<!--                        <span class="project_used_item">Adobe Illustrator</span>-->
-<!--                        <span class="project_used_item">WordPress</span>-->
-<!--                        <span class="project_used_item">CSS</span>-->
-<!--                        <span class="project_used_item">HTML</span>-->
-<!--                        <span class="project_used_item">SEO</span>-->
-<!--                    </div>-->
-<!--                    <div class="project_links">-->
-<!--                        <a href="images/sinatra.png" target="_blank">-->
-<!--                            <img src="images/sinatra_web.png" alt="image">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </details>-->
-
-<!--            <details>-->
-<!--                <summary>Sokoldan Portfolio</summary>-->
-<!--                <div class="project">-->
-<!--                    <p>Here you can check out one of my first-->
-<!--                        sites - portfolio web-site.-->
-<!--                    </p>-->
-<!--                    <div class="project_used">-->
-<!--                        <span class="project_used_item">Adobe Photoshop</span>-->
-<!--                        <span class="project_used_item">Adobe Illustrator</span>-->
-<!--                        <span class="project_used_item">WordPress</span>-->
-<!--                        <span class="project_used_item">CSS</span>-->
-<!--                        <span class="project_used_item">HTML</span>-->
-<!--                        <span class="project_used_item">SEO</span>-->
-<!--                    </div>-->
-<!--                    <div class="project_links">-->
-<!--                        <a href="images/SokolDan.pdf" target="_blank">-->
-<!--                            <img src="images/sokoldan.png" alt="image">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </details>-->
-
-<!--            <details>-->
-<!--                <summary>Dice Game</summary>-->
-<!--                <div class="project">-->
-<!--                    <p>A dice game for 2 players.<br><br>-->
-
-<!--                        GAME RULES:<br>-->
-
-<!--                        - The game has 2 players, playing in rounds. <br>-->
-<!--                        - In each turn, a player rolls a dice as many times as he whishes. <br>-->
-<!--                        - Each result get added to his ROUND score.<br>-->
-<!--                        - BUT, if the player rolls a 1, all his ROUND score gets lost.-->
-<!--                        After that, it's the next player's urn-->
-<!--                        The player can choose to 'Hold', which means that his ROUND-->
-<!--                        score gets added to his GLOBAL score. After that, it's the next-->
-<!--                        player's turn.<br>-->
-<!--                        - The first player to reach 100 points on GLOBAL score wins the game.-->
-<!--                    </p>-->
-<!--                    <div class="project_used">-->
-<!--                        <span class="project_used_item">JAVASCRIPT</span>-->
-<!--                        <span class="project_used_item">CSS</span>-->
-<!--                        <span class="project_used_item">HTML</span>-->
-<!--                        <span class="project_used_item">Adobe Photoshop</span>-->
-<!--                        <span class="project_used_item">Git Hub</span>-->
-<!--                    </div>-->
-<!--                    <div class="project_links">-->
-<!--                        <a href="https://dicegameplay.netlify.com" target="_blank">-->
-<!--                            <img src="images/dice.png" alt="image">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </details>-->
-<!--        </div>-->
-<!--    </section>-->
+    <hr>
 
     <footer class="footer">
         <div class="footer_copyright">
@@ -613,33 +518,30 @@
 <!--				</span>-->
 <!--            </div>-->
             <div class="bottom">
+                <span>
+					© 2020
+				</span>
 				<span>
 					Danylo Sokolov
 				</span>
-                <img class="emoji" src="images/rockon.png" alt="emoji">
-                <span>
-					2020
-				</span>
+<!--                <img class="emoji" src="images/rockon.png" alt="emoji">-->
             </div>
         </div>
         <div class="footer_links">
-            <a href="https://www.behance.net/gagunets23ce?isa0=1" target="_blank" title="behance">
-				<span class="text">
-					behance
-				</span>
-                <img src="images/github.svg" alt="github">
-            </a>
             <a href="mailto:sokolov.ux@gmail.com" target="_blank" title="email">
 				<span class="text">
 					email
 				</span>
-                <img src="images/email.svg" alt="email">
+            </a>
+            <a href="https://www.behance.net/gagunets23ce?isa0=1" target="_blank" title="behance">
+				<span class="text">
+					behance
+				</span>
             </a>
             <a href="https://www.linkedin.com/in/danylo-sokolov/" target="_blank" title="linkedin">
 				<span class="text">
 					linkedin
 				</span>
-                <img src="images/linkedin.svg" alt="linkedin">
             </a>
         </div>
     </footer>
