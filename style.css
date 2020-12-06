@@ -1210,6 +1210,31 @@ All Media Queries
         margin: 0;
     }
 
+    .nav-menu {
+        height: 50px;
+    }
+
+    .shadow-active {
+        height: 50px;
+    }
+
+    .nav-links a {
+        line-height: 48px;
+    }
+
+    .nav-links a span {
+        line-height: 50px;
+    }
+
+    .call-to-action-btn {
+        height: 45px;
+    }
+
+    .call-to-action-btn .blue-btn {
+        height: 47px;
+        line-height: 47px;
+    }
+
     .content {
         /*position: absolute;*/
         top: 36%;
