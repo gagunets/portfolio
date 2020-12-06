@@ -890,7 +890,7 @@ html.night strong {
 
 .blog-post {
     background-color: #ffffff;
-    height: 170px;
+    height: 150px;
     margin-bottom: 30px;
     border: 1px solid rgba(68,68,82, .1);
     box-shadow: 0 1px 2px rgba(68,68,82, .1);
@@ -909,12 +909,13 @@ html.night strong {
 }
 
 .post-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Bitter', serif;
     color: #393C40;
     letter-spacing: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .blog-post:hover {
@@ -927,11 +928,9 @@ html.night strong {
     color: #4F5359;
     font-weight: normal;
     font-size: 1rem;
-    line-height: 1.4;
+    line-height: 1.3;
     letter-spacing: 0.1px;
-    width: 100%;
     -webkit-font-smoothing: antialiased;
-    margin-bottom: 10px;
 }
 
 /*.post-tags .tag {*/
@@ -1196,6 +1195,16 @@ html.night strong {
     /*    padding-left: 20px;*/
     /*}*/
 
+    .blog-post {
+        height: 100px;
+    }
+    .post-title {
+        font-size: 0.5rem;
+    }
+    .post-description {
+        font-size: .6rem;
+    }
+
     .section_title h1 {
         font-size: 1.7rem;
     }
@@ -1278,14 +1287,6 @@ html.night strong {
     /*    padding: 80px 50px 120px 50px;*/
     /*}*/
 
-    .post-title {
-        font-size: 1.3rem;
-    }
-    .post-image {
-        flex: 1;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
 
     .intro_hello, .intro_tagline {
         margin-bottom: 0;
@@ -1342,6 +1343,22 @@ html.night strong {
 }
 
 @media screen and (max-width: 630px) {
+
+    .blog-post {
+        height: 130px;
+    }
+    .post-title {
+        font-size: 1.3rem;
+    }
+    .post-description {
+        font-size: .8rem;
+        opacity: .8;
+    }
+    .post-image {
+        flex: 1;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
     .skills .skillz {
         -ms-flex-wrap: wrap;
