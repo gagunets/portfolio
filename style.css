@@ -1216,8 +1216,16 @@ All Media Queries
     /*    padding: 80px 50px 120px 50px;*/
     /*}*/
 
+    .nav-menu {
+        padding: 0 5px;
+    }
+
     .intro_hello, .intro_tagline {
         margin-bottom: 0;
+    }
+
+    .intro_contact {
+        margin-top: 40px;
     }
 
     .header-profile-photo {
