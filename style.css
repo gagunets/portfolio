@@ -1187,6 +1187,10 @@ All Media Queries
     /*    padding-left: 20px;*/
     /*}*/
 
+    .section_title h1 {
+        font-size: 1.7rem;
+    }
+
     .nav-logo {
         display: none !important;
     }
@@ -1267,6 +1271,10 @@ All Media Queries
 
     .intro_hello, .intro_tagline {
         margin-bottom: 0;
+    }
+
+    .section_title h1 {
+        font-size: 1.9rem;
     }
 
     .intro_contact {
