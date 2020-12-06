@@ -1156,13 +1156,13 @@ All Media Queries
 
 @media screen and (max-width: 320px) {
 
-    .intro_hello, .intro_tagline {
-        font-size: 1.4rem;
-    }
+    /*.intro_hello, .intro_tagline {*/
+    /*    font-size: 1.4rem;*/
+    /*}*/
 
-    body .intro {
-        padding: 80px 45px;
-    }
+    /*body .intro {*/
+    /*    padding: 80px 45px;*/
+    /*}*/
 }
 
 
@@ -1172,19 +1172,19 @@ All Media Queries
     }
 
 
-    .intro_hello, .intro_tagline {
-        margin-bottom: 5%;
-        font-size: 1.75rem;
-    }
+    /*.intro_hello, .intro_tagline {*/
+    /*    margin-bottom: 5%;*/
+    /*    font-size: 1.75rem;*/
+    /*}*/
 
-    body section, html section {
-        padding: 80px 55px;
+    /*body section, html section {*/
+    /*    padding: 80px 55px;*/
 
-    }
+    /*}*/
 
-    body .section_content, html .section_content {
-        padding-left: 20px;
-    }
+    /*body .section_content, html .section_content {*/
+    /*    padding-left: 20px;*/
+    /*}*/
 
     .content {
         /*position: absolute;*/
