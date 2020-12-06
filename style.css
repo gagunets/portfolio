@@ -1308,7 +1308,7 @@ html.night strong {
     }
 
     body .intro {
-        padding: 80px 16px 100px 16px;
+        padding: 60px 16px 40px 16px;
         line-height: 1.5;
     }
 
@@ -1346,6 +1346,10 @@ html.night strong {
 }
 
 @media screen and (max-width: 630px) {
+
+    .intro {
+        padding: 60px 0 30px 0;
+    }
 
     .intro-blog {
         padding: 80px 0 80px 0;
