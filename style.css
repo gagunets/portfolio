@@ -1200,6 +1200,10 @@ html.night strong {
         font-size: 1.7rem;
     }
 
+    .post-title {
+        font-size: 1.7rem;
+    }
+
     .nav-logo {
         display: none !important;
     }
