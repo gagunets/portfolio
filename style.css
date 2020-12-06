@@ -1217,7 +1217,7 @@ All Media Queries
     /*}*/
 
     .nav-menu {
-        padding: 0 5px;
+        padding: 0;
     }
 
     .intro_hello, .intro_tagline {
