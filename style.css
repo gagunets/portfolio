@@ -393,6 +393,13 @@ h1 {
     margin-bottom: 40px;
 }
 
+.wf-p-up {
+    margin-bottom: 40px !important;
+}
+.wf-p-down {
+    margin: 0 !important;
+}
+
 .wf-circle {
     width: 150px;
     height: 150px;
@@ -428,7 +435,7 @@ h1 {
 .workflow-circles-mob {
     display: none;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .wf-first-row {
