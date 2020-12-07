@@ -6,6 +6,7 @@ body, html {
     scroll-behavior: smooth;
     font-variant-ligatures: none;
     max-width: 700px;
+    font-size: 16px;
 }
 
 @font-face {
@@ -381,6 +382,90 @@ h1 {
     color: #fff;
 }
 
+
+
+
+
+.workflow-circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.wf-circle {
+    width: 150px;
+    height: 150px;
+    border: 1px dashed #007bff;
+    border-radius: 100%;
+    background-image: linear-gradient(140deg, rgba(255,191,215, .1) 0%, rgba(210,218,255, .2) 44%, rgba(191,254,255, .3) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wf-circle-title {
+    font-family: "Proxima Nova Thin", sans-serif;
+    /*font-family: "Proxima Nova Bold", sans-serif;*/
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    letter-spacing: .3px;
+    color: #24282E;
+}
+
+.wf-circle-subtitle {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #8E9091;
+    -webkit-font-smoothing: antialiased;
+}
+
+.workflow-circles-mob {
+    display: none;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.wf-first-row {
+    margin-bottom: 25px;
+}
+
+.wf-first-row, .wf-second-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.circle-down, .circle-up {
+    position: relative;
+}
+
+.circle-down img {
+    position: absolute;
+    left: 65px;
+    bottom: -25px;
+    transform: rotate(90deg);
+}
+
+.circle-up img {
+    position: absolute;
+    left: 65px;
+    top: -25px;
+    transform: rotate(-90deg);
+}
+
+.wf-second-row .arrow-left {
+    transform: rotate(180deg);
+}
+
+
+
+
+
 hr {
     border-bottom: 1px solid #E5E5E5;
     opacity: .2;
@@ -671,10 +756,6 @@ a.experience .job .job_company {
     margin-top: 2rem;
     width: 100%;
     /*padding: 5px;*/
-}
-
-.project_links img:hover {
-    background-color: blue;
 }
 
 details summary::-webkit-details-marker {
@@ -1474,6 +1555,13 @@ html.night strong {
 }
 
 @media screen and (max-width: 850px) {
+
+    .workflow-circles{
+        display: none;
+    }
+    .workflow-circles-mob {
+        display: flex;
+    }
 
     .footer {
         display: flex;
