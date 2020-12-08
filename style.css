@@ -390,7 +390,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 .wf-p-up {
@@ -469,6 +469,18 @@ h1 {
     transform: rotate(180deg);
 }
 
+.iterate-arrow {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-end;*/
+    align-items: flex-end;
+    margin-bottom: 30px;
+    padding-right: 69px;
+}
+
+.iterate-arrow img {
+    margin-bottom: 5px;
+}
 
 
 
@@ -1568,6 +1580,10 @@ html.night strong {
     }
     .workflow-circles-mob {
         display: flex;
+    }
+
+    .iterate-arrow {
+        display: none;
     }
 
     .footer {
