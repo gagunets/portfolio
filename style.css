@@ -292,8 +292,8 @@ h1 {
 }
 
 .intro_hello, .intro_tagline span {
-    font-family: "Proxima Nova Thin", sans-serif;
-    font-weight: 100;
+    font-family: "Proxima Nova", sans-serif;
+    /*font-weight: 100;*/
     font-size: 1.2rem;
     line-height: 1.5;
     letter-spacing: 0.2px;
