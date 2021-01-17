@@ -431,7 +431,7 @@ h1 {
     font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.4;
-    letter-spacing: 0.2px;
+    /*letter-spacing: 0.2px;*/
     color: #626566;
     -webkit-font-smoothing: antialiased;
 }
