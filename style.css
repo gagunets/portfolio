@@ -5,31 +5,26 @@ body, html {
     color: #393C40;
     scroll-behavior: smooth;
     font-variant-ligatures: none;
-    max-width: 700px;
+    /*max-width: 700px;*/
+    width: 100%;
     font-size: 16px;
 }
 
-@font-face {
-    font-family: "Proxima Nova", sans-serif;
-    src: url(fonts/ProximaNova-Regular.otf);
-        url(fonts/ProximaNova-Regular.ttf);
+.centered-section {
+    max-width: 700px !important;
+    margin: 0 auto;
 }
 
-@font-face {
-    font-family: "Proxima Nova Thin", sans-serif;
-    src: url(fonts/ProximaNovaThin.otf);
-}
-
-@font-face {
-    font-family: "Proxima Nova Bold", sans-serif;
-    src: url(fonts/ProximaNovaBold.otf);
+.full-width-section {
+    width: 100%;
+    background-color: #252b30;
 }
 
 body a, html a {
     text-decoration: none;
     color: #393C40;
     transition: all .25s ease-in-out;
-    font-family: 'Bitter', serif;
+    font-family: 'Avenir Next Cyr', sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -37,6 +32,15 @@ body a, html a {
 body p, html p {
     font-weight: 300;
 }
+
+.black-bg {
+    background-color: #39454d;
+}
+
+.white-bg {
+    background-color: #F2F8FF;
+}
+
 
 body a:hover {
     text-decoration: underline blue;
@@ -262,9 +266,9 @@ section.fadeIn {
 
 
 h1 {
-    font-weight: 700;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-weight: 900;
     font-size: 2.5rem;
-    font-family: 'Bitter', serif;
     color: #393C40;
     letter-spacing: 1px;
     /*margin-bottom: 10px;*/
@@ -275,10 +279,9 @@ h1 {
 }
 
 .intro_hello, .main-text-line {
-    font-family: "Proxima Nova Thin", sans-serif;
-    /*font-family: "Proxima Nova Bold", sans-serif;*/
-    font-weight: 100;
-    font-size: 1.7rem;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-weight: 400;
+    font-size: 1.9rem;
     line-height: 1.2;
     margin-bottom: 30px;
     letter-spacing: 0.3px;
@@ -292,13 +295,15 @@ h1 {
 }
 
 .intro_hello, .intro_tagline span {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-weight: 300;
+    font-style: normal;
     /*font-weight: 100;*/
     font-size: 1.2rem;
     line-height: 1.5;
     letter-spacing: 0.2px;
     /*color: #8E9091;*/
-    color: #A0A9AD;
+    color: #8D9294;
     width: auto;
 }
 
@@ -360,7 +365,7 @@ h1 {
     line-height: 1.7;
     letter-spacing: .2px;
     color: #8E9091;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     opacity: .7;
 }
 
@@ -405,7 +410,7 @@ h1 {
     height: 150px;
     border: 1px dashed #007bff;
     border-radius: 100%;
-    background-image: linear-gradient(140deg, rgba(255,191,215, .1) 0%, rgba(210,218,255, .2) 44%, rgba(191,254,255, .3) 100%);
+    background-image: linear-gradient(140deg, rgb(255,235,242), rgb(190,200,235) 40%, rgb(180,240,255));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -413,22 +418,21 @@ h1 {
 }
 
 .wf-circle-title {
-    font-family: "Proxima Nova Thin", sans-serif;
-    /*font-family: "Proxima Nova Bold", sans-serif;*/
-    font-weight: 400;
-    font-size: 1.2rem;
+    font-family: "Avenir Next Cyr", sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
     line-height: 1.2;
     letter-spacing: .3px;
-    color: #24282E;
+    color: #1d2229;
 }
 
 .wf-circle-subtitle {
-    font-family: "Proxima Nova", sans-serif;
-    font-weight: normal;
+    font-family: "Avenir Next Cyr", sans-serif;
+    font-weight: 500;
     font-size: 1.1rem;
     line-height: 1.4;
     letter-spacing: 0.2px;
-    color: #8E9091;
+    color: #626566;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -504,18 +508,26 @@ section {
 .status {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: 'Bitter', serif;
-    margin-top: 40px;
-    color: #131417;
-
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    letter-spacing: 0.5px;
+    /*letter-spacing: 0.5px;*/
+    text-decoration: none;
+    padding: 4px 1px;
+    box-shadow: inset 0 -3px 0 #007bff;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.status:hover {
+    box-shadow: inset 0 -33px 0 0 #007bff;
+    color: #fff;
+    text-decoration: none;
 }
 
 .status_light {
@@ -565,23 +577,24 @@ body .section, html .section {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 50px 0 50px 0;
+    padding: 80px 0 80px 0;
 }
 
 body .section_title, html .section_title {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin-top: -30px;
+    margin-bottom: 10px;
 }
 
 body .section_content p, html .section_content p {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Avenir Next Cyr", sans-serif;
     /*color: #4F5359;*/
-    color: #4e616c;
-    font-weight: normal;
+    color: #44555E;
+    font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.5;
-    letter-spacing: 0.1px;
+    letter-spacing: 0;
     width: 100%;
     margin-bottom: 100px;
     -webkit-font-smoothing: antialiased;
@@ -614,9 +627,9 @@ section .skills {
 }
 
 .skills .skillz_category_item {
-    font-family: "Proxima Nova", sans-serif;
-    color: #4E6163;
-    font-weight: normal;
+    font-family: "Avenir Next Cyr", sans-serif;
+    color: #44555E;
+    font-weight: 400;
     font-size: 1.2em;
     line-height: 1.6;
     letter-spacing: 0.1px;
@@ -741,7 +754,7 @@ a.experience .job .job_company {
 }
 
 .underline {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Avenir Next Cyr", sans-serif;
     /*font-weight: 600;*/
     font-size: 1.1rem;
     outline: none;
@@ -768,7 +781,7 @@ a.experience .job .job_company {
     text-transform: uppercase;
     /*border: 1px solid #65656B;*/
     opacity: .5 !important;
-    background-image: linear-gradient(140deg, rgba(255,191,215, .1) 0%, rgba(210,218,255, .4) 44%, rgba(191,254,255, .3) 100%);
+    background-image: linear-gradient(140deg, rgba(255,191,215, .2) 0%, rgba(210,218,255, .5) 44%, rgba(191,254,255, .5) 100%);
     -webkit-font-smoothing: antialiased;
 }
 
@@ -794,10 +807,8 @@ details summary {
     letter-spacing: .3px;
     line-height: 1.8rem;
 
-    font-family: "Proxima Nova Thin", sans-serif;
-    /*font-family: "Proxima Nova Bold", sans-serif;*/
-    font-weight: 400;
-    /*opacity: .9;*/
+    font-family: "Avenir Next Cyr", sans-serif;
+    font-weight: 500;
     /*-webkit-font-smoothing: antialiased;*/
 }
 
@@ -832,7 +843,7 @@ body .arrow-link:hover, html .arrow-link:hover {
 }
 
 .secondary-text {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Avenir Next Cyr", sans-serif;
     letter-spacing: 0.1px;
     color: #8E9091;
     /*font-weight: 600;*/
@@ -854,7 +865,7 @@ body ul, html ul {
 }
 
 .footer {
-    padding: 30px 0 60px 0;
+    padding: 30px 0 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -865,8 +876,8 @@ body ul, html ul {
 }
 
 .footer_copyright {
-    font-family: "Proxima Nova Thin", sans-serif;
-    font-weight: lighter;
+    font-family: "Avenir Next Cyr", sans-serif;
+    font-weight: 300;
     -webkit-font-smoothing: antialiased;
     color: #4e616c;
     font-size: 1.1rem;
@@ -891,7 +902,7 @@ body ul, html ul {
 .footer_links a .text {
     font-size: 1.1rem;
     display: inline;
-    font-family: "Proxima Nova Thin", sans-serif;
+    font-family: "Avenir Next Cyr", sans-serif;
     /*font-weight: lighter;*/
     -webkit-font-smoothing: antialiased;
 }
@@ -1012,10 +1023,10 @@ html.night strong {
 
 .post-title {
     font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'Bitter', serif;
-    color: #393C40;
-    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    color: #45484d;
+    letter-spacing: .5px;
     margin-bottom: 5px;
     -webkit-font-smoothing: antialiased;
 }
@@ -1026,7 +1037,7 @@ html.night strong {
 }
 
 .post-description {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Avenir Next Cyr", sans-serif;
     color: #4F5359;
     font-weight: normal;
     font-size: 1rem;
@@ -1296,6 +1307,13 @@ html.night strong {
     /*body .section_content, html .section_content {*/
     /*    padding-left: 20px;*/
     /*}*/
+    .centered-section {
+        max-width: 100%;!important;
+    }
+
+    .full-width-section {
+        width: 100%; !important;
+    }
 
     .blog-post {
         height: 100px !important;
@@ -1410,7 +1428,7 @@ html.night strong {
     }
 
     body .intro {
-        padding: 60px 16px 40px 16px;
+        padding: 60px 16px 60px 16px;
         line-height: 1.5;
     }
 
@@ -1438,6 +1456,10 @@ html.night strong {
         margin-top: 10px;
     }
 
+    .skillz_category ul {
+        margin-top: 0;
+    }
+
     .status {
         margin-top: 20px;
     }
@@ -1450,7 +1472,7 @@ html.night strong {
 @media screen and (max-width: 630px) {
 
     .intro {
-        padding: 60px 0 30px 0;
+        padding: 60px 0 60px 0;
     }
 
     .intro-blog {
@@ -1513,8 +1535,17 @@ html.night strong {
 
 @media screen and (max-width: 768px) {
 
-    body {
-        padding: 0 16px;
+    .centered-section {
+        max-width: 100%;!important;
+    }
+
+    .intro {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .full-width-section {
+        width: unset;
     }
 
     .nav-menu {
@@ -1576,7 +1607,7 @@ html.night strong {
 
 @media screen and (max-width: 850px) {
 
-    .workflow-circles{
+    .workflow-circles {
         display: none;
     }
     .workflow-circles-mob {
@@ -1604,7 +1635,7 @@ html.night strong {
 @media screen and (max-width: 1024px) {
 
     body .section, html .section {
-        padding: 40px 0 40px 0;
+        padding: 60px 16px;
     }
 
     /*body .section_title, html .section_title {*/
