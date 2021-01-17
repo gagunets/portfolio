@@ -296,14 +296,14 @@ h1 {
 
 .intro_hello, .intro_tagline span {
     font-family: 'Avenir Next Cyr', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     /*font-weight: 100;*/
     font-size: 1.2rem;
     line-height: 1.5;
     letter-spacing: 0.2px;
     /*color: #8E9091;*/
-    color: #8D9294;
+    color: #808080;
     width: auto;
 }
 
